@@ -5,6 +5,7 @@ const defaultState = {
 }
 
 export const registrationReducer = (state = defaultState, action) => {
+    console.log(state)
     switch (action.type) {
         case "REGISTRATION_CHANGE_EMAIL_TEXT":
             return {
